@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<script type="text/javascript" src="login.js"></script>	
+</head>
+<body>
+	<h1>Login Page</h1>
+	<div class="container">
+		<form method="post" action="#" id="myForm">
+			<fieldset>
+				<legend>User Authentication</legend>
+				<label for="name">Username:</label>
+				<input type="text" name="Name" id="name">
+				<br>
+
+				<label for="password">Password:</label>
+				<input type="password" name="Password" id="password">
+				<br>
+
+				<input type="submit" name="login" value="login" onclick=" pageloaded()">
+
+			</fieldset>
+		</form>
+		<div class="hidden" id="output">
+			<p id="output__username"></p>
+			<p id="output__password"></p>
+		</div>
+	</div>
+
+
+</body>
+</html>

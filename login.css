@@ -1,0 +1,18 @@
+.container{
+	width: 50%;
+	text-align: center;
+}
+legend{
+	font-weight: bold;
+
+}
+.hidden{
+	display:none;
+}
+label{
+	background-color: #9D9999;
+}
+input{
+	margin: 10px;
+	padding: 5px;
+}
